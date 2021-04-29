@@ -1,0 +1,36 @@
+/* The sidebar menu */
+.sidenav {
+height: 100%;
+width: 160px; /* Set the width of the sidebar */
+position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+z-index: 1;
+top: 0;
+left: 0;
+padding-top: 20px;
+overflow-x: hidden;
+}
+
+/* The navigation menu links */
+.sidenav a {
+text-decoration: none;
+font-size: 14px;
+display: block;
+}
+
+.main {
+margin-left: 180px;
+}
+
+.blockquote {
+margin:0;
+}
+
+.pullquote {
+color: #000080;
+font-size: 20px;
+line-height: 0.9;
+font-style: italic;
+padding: 13px;
+text-align: center;
+
+}
